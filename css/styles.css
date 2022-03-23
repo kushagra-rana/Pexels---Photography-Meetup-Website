@@ -1,0 +1,236 @@
+body{
+
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1{
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
+h3{
+
+  font-weight: 800;
+  font-size: 1.44rem;
+}
+
+p{
+
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+/****************************     TITLE SECTION      ****************************/
+
+.navbar{
+
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+
+  padding: 0 18px;
+}
+
+.nav-link{
+
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+
+#title{
+
+  background-color: #fe4853;
+  color: white;
+}
+
+.download-button{
+
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid{
+
+  padding: 3% 15% 7%;
+}
+
+.iphone-image-div{
+
+  position: relative;
+  left: 120px;
+  bottom: 10px;
+}
+
+.iphone-img{
+
+  border-radius: 2.5rem;
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 840px) {
+
+  .iphone-img {
+
+    display: none;
+  }
+
+  #title{
+
+    text-align:center;
+  }
+}
+
+
+/***************************      FEATURES SECTION       ************************/
+
+
+#features{
+
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+
+  color: #ef8172;
+  margin-bottom: 1.1rem;
+}
+
+.icon:hover{
+
+  color: #fe4853;
+}
+
+/*************************       TESTIMONIAL SECTION        *********************/
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+
+}
+
+.testimonial-image{
+
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-location{
+
+  color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    /*--height: 350px;*/
+}
+
+/*
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}*/
+
+
+/* PRESS  */
+
+#press{
+
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*************************      PRICING SECTION      ***********************/
+
+.Pricing-cards{
+
+  font-weight: 500;
+  font-size: 2rem;
+  color: black;
+  padding: 2%;
+  padding-bottom: 6%;
+}
+
+#pricing{
+
+  padding: 150px;
+  text-align: center;
+}
+
+.para-spacing{
+
+  padding: 2% 0 4%;
+
+}
+
+.pricing-column{
+
+  padding: 3% 2%;
+}
+
+.Pricing-heading{
+
+  font-weight: 600;
+  color: black;
+  padding-bottom: 1%;
+}
+
+.pricing-3cards{
+
+  padding: 20px;
+}
+
+.per-month-style{
+
+  font-weight: 300;
+  color: #6c757d;
+}
+
+.card-headings{
+
+  font-weight:500;
+}
