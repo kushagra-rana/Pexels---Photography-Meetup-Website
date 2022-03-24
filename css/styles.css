@@ -97,7 +97,7 @@ p{
 
   #title{
 
-    text-align:center;
+    text-align: center;
   }
 }
 
@@ -108,7 +108,7 @@ p{
 #features{
 
   background-color: white;
-  padding: 7% 15%;
+  padding: 10% 15%;
   position: relative;
   z-index: 1;
 }
@@ -233,4 +233,42 @@ p{
 .card-headings{
 
   font-weight:500;
+}
+
+
+
+/*************************       CALL-TO-ACTION SECTION        *********************/
+
+#cta{
+
+  background-color: #fe4853;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/*************************       CALL-TO-ACTION SECTION        *********************/
+
+#footer{
+
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icons{
+
+  margin: 20px 15px;
+}
+
+.footer-copyright{
+
+  padding-top: 2%;
 }
